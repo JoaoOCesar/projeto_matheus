@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.rosa{
+    color: rgb(255, 58, 91);
+}
+
+
+#menuheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 192, 209);
+}
+
+#menuheader h1 {
+    margin-left: 30px;
+    color: rgb(255, 58, 91);
+}
+
+#menuheader h1:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+#menuheader span {
+    font-size: 60px;
+}
+
+#menuheader ul {
+    list-style: none;
+}
+
+#menuheader li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#menuheader a:hover {
+    color: rgb(255, 58, 91);
+    transition: 0.3s;
+}
+
+#divBusca {
+    position: relative;
+    bottom: 15px;
+    background-color: #ffffff1d;
+    border: solid 1px;
+    border-radius: 15px;
+    margin-top: 40px;
+    height: 30px;
+
+
+}
+
+#txtBusca {
+    font-family: 'Jost', sans-serif;
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    text-align: center;
+}
+
+#buscaimg {
+    height: 30px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}
+
+header>h1 {
+    margin-left: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(255, 58, 91);
+    transition: 0.3s;
+}
+
+.propaganda {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.propaganda h3 span {
+    color: rgb(237, 132, 27);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+footer {
+    height: 200px;
+    text-align: center;
+    background: rgb(255, 58, 91);
+    background: linear-gradient(0deg, rgba(255, 58, 91, 0.123) 0%, rgba(255, 255, 255, 1) 100%);
+    border: 1px solid red;
+    
+}
+
+footer>p {
+    margin: 100px;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#drop {
+    position: relative;
+    top: 4px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    color: rgb(255, 58, 91);
+    transition: 0.3s;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 58, 91);
+    color: white;
+    transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+/*fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;1,500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;1,500&family=Open+Sans:wght@300&family=Poppins:wght@600&display=swap');
+
+.anuncios{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.anuncios img{
+    height: 250px;
+}
+
+.anuncios1, .anuncios2, .anuncios3, .anuncios4 {
+    margin-left: 20px;
+    border-radius: 10px 0 0 0;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+}
+
+.anuncios1:hover, .anuncios2:hover, .anuncios3:hover, .anuncios4:hover{
+    scale: 1.04;
+    transition: 0.3s;
+}
+
+.txt{
+    text-align: center;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.container aside{
+    margin-top: 1%;
+    margin-right: 4%;
+}
+
+article h2{
+    margin-left: 30px;
+}
+
+.button{
+    background-color: rgb(255, 58, 91);
+    color: white;
+    border-radius: 5px;
+}
+
+section{
+    margin: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
