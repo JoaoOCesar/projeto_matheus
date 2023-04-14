@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Prompt', sans-serif;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header {
+    background: white;
+}
+
+.logopesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    scale: 0.8;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pesquisa {
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 35px;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.24);
+}
+
+.barraTexto {
+    margin-left: 10px;
+    width: 300px;
+    outline: 0;
+    border: 0;
+}
+
+.lupa {
+    margin-top: 5px;
+    margin-right: 4px;
+    scale: 0.9;
+}
+
+.acesso>ul>li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.acesso>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuHorizontal {
+    margin: 0;
+    text-align: center;
+    height: 45px;
+}
+
+.menuHorizontal>ul {
+    margin: 0;
+    border-top: 3px solid rgba(255, 23, 100, 0.349);
+}
+
+.menuHorizontal>ul>li {
+    margin-top: 10px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 15px;
+
+}
+
+.menuHorizontal>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+}
+
+.menuHorizontal>ul>li>a:hover {
+    color: rgb(255, 81, 110);
+    transition: 0.3s;
+
+}
+
+/*fim menu*/
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.container-footer1 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    margin-left: 10px;
+    color: white;
+}
+
+.logo-footer p {
+    position: relative;
+    bottom: 30px;
+    left: 17px;
+    line-height: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.redes-footer {
+    margin-top: 40px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif
+}
+
+
+.redes-footer ul li {
+    display: inline-block;
+}
+
+.redes-footer ul li a img {
+    height: 30px;
+    filter: invert(1);
+}
+
+.redes-footer ul li a img:hover {
+    scale: 1.3;
+    transition: 0.3s;
+}
+
+.container-footer2 {
+    justify-content: center;
+    display: flex;
+}
+
+.subcontainer {
+    font-family: 'Poppins', sans-serif;
+}
+
+.subcontainer img {
+    filter: invert(1);
+}
+
+.container-footer3 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif
+}
+
+/*dropdown*/
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#drop {
+    position: relative;
+    top: 4px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    color: rgb(255, 58, 91);
+    transition: 0.3s;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 58, 91);
+    color: white;
+    transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#drop {
+    position: relative;
+    top: 4px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    color: rgb(255, 58, 91);
+    transition: 0.3s;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 58, 91);
+    color: white;
+    transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+
+/*fim*/
+
+/*container*/
+.consultora {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+article p{
+    text-align: justify;
+}
+
+article h2 {
+    color: rgb(255, 68, 99);
+}
+
+.consultora aside img {
+    border-radius: 40px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.consultora1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.consultora1 aside img {
+    border-radius: 40px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.consultora1 article{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.consultora1 form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+}
+
+.consultora1 form [type="submit"]{
+    height: 40px;
+    width: 30%;
+    background-color: rgb(255, 69, 110);
+    border: 1px solid rgb(255, 69, 110);
+    color: white;
+    
+}
+
+.consultora1 form [type="submit"]:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background-color: rgb(255, 250, 253);
+    color: rgb(255, 69, 110);
+    border: 1px solid rgb(255, 69, 110);
+}
+
+.consultora1 input{
+    
+    margin-top: 20px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid rgb(255, 58, 91);
+    outline: 0;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
